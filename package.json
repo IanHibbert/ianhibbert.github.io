@@ -1,0 +1,23 @@
+{
+  "name": "ianhibbert.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanHibbert/ianhibbert.github.io.git"
+  },
+  "author": "Ian Hibbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanHibbert/ianhibbert.github.io/issues"
+  },
+  "homepage": "https://github.com/IanHibbert/ianhibbert.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.2.0",
+    "gulp": "^3.7"
+  }
+}
