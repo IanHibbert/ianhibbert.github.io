@@ -1,5 +1,7 @@
-## Welcome to my Personal Website
+## Hello There
 
-This is a simple site that has information about me and links to my side projects.
+I'm going to document parts of my life here
 
-The site uses Jekyll to build the pages and styled with [materialize](http://materializecss.com/)
+
+
+

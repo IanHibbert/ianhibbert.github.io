@@ -2,8 +2,14 @@
 <nav>
     <div class="nav-wrapper">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/blog">Blog</a></li>
+        {% for item in site.data.navigation %}
+          <li>
+            <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+              {{ item.name }}
+            </a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </nav>
+
