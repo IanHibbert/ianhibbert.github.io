@@ -4,7 +4,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         {% for item in site.data.navigation %}
           <li>
-            <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+            <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
               {{ item.name }}
             </a>
           </li>
