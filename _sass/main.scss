@@ -1,3 +1,68 @@
-.current {
-  color: green;
+html {
+  overflow: hidden;
+  height: 100%;
+  font-family: "Spoqa Han Sans","Source Sans Pro",Apple SD Gothic Neo,Nanum Barun Gothic,Nanum Gothic,Verdana,Arial,Dotum,sans-serif;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0
+}
+
+.site-wrapper {
+  max-width: 48rem;
+  padding: 5rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-wrapper {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+      float: left;
+
+      :first-child{
+        padding-left: 0;
+      }
+
+      a {
+        display: block;
+        color: grey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: .75rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
 }
